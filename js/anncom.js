@@ -41,6 +41,7 @@ const getPeople = () => {
     btnAdd.textContent = 'Получить';
   }).catch(err => {
     console.log(err);
+    btnAdd.textContent = 'Получить';
   })
 }
 
